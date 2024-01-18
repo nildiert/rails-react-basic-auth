@@ -1,24 +1,22 @@
-# README
+To start, clone the file in your terminal.
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Setup Rails API
 
-Things you may want to cover:
+```bash
+cd react-user-authenication
+cd api
+bundle install
+rails s
+```
 
-* Ruby version
 
-* System dependencies
+## Setup React client
 
-* Configuration
+```bash
+cd .. 
+cd frontend
+npm install
+npm start
+```
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+You should now in the login screen. You can toggle login and signup. Once you signed in, you can see the private message.
