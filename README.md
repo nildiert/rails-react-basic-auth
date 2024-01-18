@@ -3,8 +3,7 @@ To start, clone the file in your terminal.
 ## Setup Rails API
 
 ```bash
-cd react-user-authenication
-cd api
+cd rails-react-basic-auth
 bundle install
 rails s
 ```
@@ -13,7 +12,6 @@ rails s
 ## Setup React client
 
 ```bash
-cd .. 
 cd frontend
 npm install
 npm start
